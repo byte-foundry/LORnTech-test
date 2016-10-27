@@ -1,0 +1,49 @@
+.test-content {
+	font-family: 'anrt-font';
+	flex: 4;
+	font-size: 60px;
+	padding: 20px;
+	max-height:100%;
+	overflow:auto;
+	position:relative;
+}
+
+.container {
+	height:100%;
+}
+
+html, body {
+	height:100%;
+}
+
+.sliders {
+	background-color: #d44558;
+	height:100%;
+	flex:1;
+	padding:10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.slider {
+	margin:5px 0;
+}
+
+label {
+	color: #fefefe;
+}
+
+.container {
+	display: flex;
+}
+
+.wait {
+	height:100%;
+	width:100%
+	position:absolute;
+	top:0;
+	left:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
