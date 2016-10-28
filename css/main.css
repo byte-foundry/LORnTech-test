@@ -1,11 +1,14 @@
 .test-content {
 	font-family: 'anrt-font';
 	flex: 4;
-	font-size: 60px;
+	font-size: 92px;
+	line-height: 1.3;
 	padding: 20px;
 	max-height:100%;
 	overflow:auto;
 	position:relative;
+	background-color: #f9f4f4;
+	color: #000;
 }
 
 .container {
@@ -14,19 +17,24 @@
 
 html, body {
 	height:100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Stan Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .sliders {
 	background-color: #d44558;
 	height:100%;
 	flex:1;
-	padding:10px;
+	padding:20px;
 	display: flex;
 	flex-direction: column;
 }
 
 .slider {
-	margin:5px 0;
+	margin:5px 0 15px;
 }
 
 label {
@@ -46,4 +54,9 @@ label {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+@font-face {
+	font-family: 'Stan Sans';
+	src: url('/stan.otf');
 }
